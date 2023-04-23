@@ -1,0 +1,45 @@
+server:
+  port: 8150
+
+#调整session过期时间 （用户会话过期时间）
+  servlet:
+    session:
+      timeout: 30m
+
+spring:
+  application:
+    name: mall-auth-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+    sentinel:
+      transport:
+        # 应用开启端口，接收dashboard限流规则，如果被占用会默认+1
+        port: 8719
+        #配置sentinel dashboard地址
+        dashboard: localhost:8333
+
+
+  thymeleaf:
+    cache: false
+
+  session:
+    store-type: redis
+
+  redis:
+    host: localhost
+    port: 6379
+
+#开启feign对sentinel的支持
+feign:
+  sentinel:
+    enabled: true
+
+#暴露所有端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

@@ -1,0 +1,156 @@
+2023-03-03 17:25:32,740 INFO DEFAULT_GROUP@@mall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.181.121.229:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 17:25:32,746 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 10.181.121.229:88_true,
+
+2023-03-03 17:29:47,482 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.181.121.229:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 17:29:47,487 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 10.181.121.229:8080_true,
+
+2023-03-03 18:08:36,668 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.181.121.229:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 18:08:36,671 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 10.181.121.229:10000_true,
+
+2023-03-03 18:08:44,709 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.181.121.229:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 18:08:44,711 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 10.181.121.229:8800_true,
+
+2023-03-03 18:08:44,718 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 10.181.121.229:8800_true,
+
+2023-03-03 18:34:49,918 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.181.121.229:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 18:34:49,921 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2023-03-03 18:35:16,706 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.181.121.229:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 18:35:16,707 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 10.181.121.229:8080_true,
+
+2023-03-03 18:35:16,709 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 10.181.121.229:8080_true,
+
+2023-03-03 18:42:55,179 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.181.121.229:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 18:42:55,188 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2023-03-03 18:43:19,909 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.181.121.229:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 18:43:19,909 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 10.181.121.229:8080_true,
+
+2023-03-03 18:43:19,911 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 10.181.121.229:8080_true,
+
+2023-03-03 19:08:43,272 INFO {POS} {IP-DISABLED} valid: 10.181.121.229:8800@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1677840261703
+
+2023-03-03 19:08:43,277 INFO {POS} {IP-DISABLED} valid: 10.181.121.229:88@DEFAULT@DEFAULT_GROUP@@mall-gateway, region: unknown, msg: client timeout after 15000, last beat: 1677840263803
+
+2023-03-03 19:08:43,317 INFO {POS} {IP-DISABLED} valid: 10.181.121.229:10000@DEFAULT@DEFAULT_GROUP@@mall-product, region: unknown, msg: client timeout after 15000, last beat: 1677840264113
+
+2023-03-03 19:08:43,340 INFO {POS} {IP-DISABLED} valid: 10.181.121.229:8080@DEFAULT@DEFAULT_GROUP@@renren-fast, region: unknown, msg: client timeout after 15000, last beat: 1677840259994
+
+2023-03-03 19:08:47,762 INFO service: DEFAULT_GROUP@@renren-fast {POS} {IP-ENABLED} valid: 10.181.121.229:8080@DEFAULT, region: unknown, msg: client beat ok
+
+2023-03-03 19:08:47,762 INFO service: DEFAULT_GROUP@@mall-member {POS} {IP-ENABLED} valid: 10.181.121.229:8800@DEFAULT, region: unknown, msg: client beat ok
+
+2023-03-03 19:08:47,765 INFO service: DEFAULT_GROUP@@mall-gateway {POS} {IP-ENABLED} valid: 10.181.121.229:88@DEFAULT, region: unknown, msg: client beat ok
+
+2023-03-03 19:08:47,770 INFO service: DEFAULT_GROUP@@mall-product {POS} {IP-ENABLED} valid: 10.181.121.229:10000@DEFAULT, region: unknown, msg: client beat ok
+
+2023-03-03 19:08:47,855 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.181.121.229:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:08:47,855 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2023-03-03 19:08:47,855 INFO DEFAULT_GROUP@@mall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.181.121.229:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:08:47,855 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 
+
+2023-03-03 19:08:48,018 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.181.121.229:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:08:48,018 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 
+
+2023-03-03 19:08:48,019 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.181.121.229:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:08:48,019 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2023-03-03 19:08:48,582 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.181.121.229:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:08:48,582 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 10.181.121.229:8080_true,
+
+2023-03-03 19:08:49,035 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.181.121.229:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:08:49,035 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 10.181.121.229:8800_true,
+
+2023-03-03 19:08:51,206 INFO DEFAULT_GROUP@@mall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.181.121.229:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:08:51,206 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 10.181.121.229:88_true,
+
+2023-03-03 19:08:51,654 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [10.181.121.229:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:08:51,654 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 10.181.121.229:10000_true,
+
+2023-03-03 19:18:54,723 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.181.121.229:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:18:54,724 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2023-03-03 19:19:11,410 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.10.3:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:19:11,410 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 172.20.10.3:8080_true,
+
+2023-03-03 19:19:11,412 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 172.20.10.3:8080_true,
+
+2023-03-03 19:35:16,353 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.181.121.229:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:35:16,354 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2023-03-03 19:35:30,590 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.10.3:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:35:30,590 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 172.20.10.3:8800_true,
+
+2023-03-03 19:35:30,593 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 172.20.10.3:8800_true,
+
+2023-03-03 19:36:00,051 INFO DEFAULT_GROUP@@mall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.181.121.229:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:36:00,051 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 
+
+2023-03-03 19:36:13,269 INFO DEFAULT_GROUP@@mall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.10.3:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:36:13,270 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 172.20.10.3:88_true,
+
+2023-03-03 19:36:13,270 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 172.20.10.3:88_true,
+
+2023-03-03 19:57:14,830 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.10.3:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:57:14,833 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2023-03-03 19:57:33,249 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.10.3:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 19:57:33,249 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 172.20.10.3:8800_true,
+
+2023-03-03 19:57:33,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 172.20.10.3:8800_true,
+
+2023-03-03 19:59:12,447 INFO {POS} {IP-DISABLED} valid: 172.20.10.3:8800@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1677844733416
+
+2023-03-03 19:59:24,287 INFO service: DEFAULT_GROUP@@mall-member {POS} {IP-ENABLED} valid: 172.20.10.3:8800@DEFAULT, region: unknown, msg: client beat ok
+
+2023-03-03 19:59:57,529 INFO {POS} {IP-DISABLED} valid: 172.20.10.3:8800@DEFAULT@DEFAULT_GROUP@@mall-member, region: unknown, msg: client timeout after 15000, last beat: 1677844778785
+
+2023-03-03 20:00:12,580 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.10.3:8800:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-03-03 20:00:12,580 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2023-03-03 20:00:13,873 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.20.10.3:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 20:00:13,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 172.20.10.3:8800_true,
+
+2023-03-03 20:50:36,434 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.10.3:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 20:50:36,437 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2023-03-03 20:50:37,737 INFO DEFAULT_GROUP@@mall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.10.3:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 20:50:37,737 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 
+
+2023-03-03 20:50:38,679 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [10.181.121.229:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 20:50:38,679 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 
+
+2023-03-03 20:50:40,128 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.20.10.3:8800:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 20:50:40,128 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+

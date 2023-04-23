@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mall-ware
+
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: 14023a80-a466-44d4-b07b-73a4075da197
+
+

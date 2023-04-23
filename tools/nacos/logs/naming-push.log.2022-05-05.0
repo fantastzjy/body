@@ -1,0 +1,40 @@
+2022-05-05 11:55:27,656 INFO DEFAULT_GROUP@@mall-third-party is changed, add it to push queue.
+
+2022-05-05 11:55:27,677 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-05 11:55:27,680 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2022-05-05 11:55:27,680 INFO DEFAULT_GROUP@@mall-ware is changed, add it to push queue.
+
+2022-05-05 11:55:29,881 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-05 11:55:29,885 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.53.179:57506, agent: Nacos-Java-Client:v1.1.1, key: 192.168.53.179,57506,327394194523500
+
+2022-05-05 11:55:29,885 INFO send udp packet: 192.168.53.179,57506,327394194523500
+
+2022-05-05 11:55:29,909 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"metadata":{},"dom":"DEFAULT_GROUP@@renren-fast","cacheMillis":10000,"useSpecifiedURL":false,"hosts":[],"name":"DEFAULT_GROUP@@renren-fast","checksum":"b5784e3553fe1e6b7b4b4a2831e60dd8","lastRefTime":1651722929883,"env":"","clusters":""}, lastRefTime=327394194523500} to client: 192.168.53.179, error: {}
+
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:601)
+	at com.alibaba.nacos.naming.push.PushService.access$500(PushService.java:53)
+	at com.alibaba.nacos.naming.push.PushService$4.run(PushService.java:186)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-05 11:55:29,911 INFO DEFAULT_GROUP@@mall-third-party is changed, add it to push queue.
+
+2022-05-05 11:55:29,976 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2022-05-05 11:55:29,976 INFO DEFAULT_GROUP@@mall-ware is changed, add it to push queue.
+
+2022-05-05 12:25:35,652 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-05 12:25:37,279 INFO DEFAULT_GROUP@@mall-third-party is changed, add it to push queue.
+

@@ -1,0 +1,22 @@
+2023-02-24 05:52:17,111 INFO groupCount=2, subscriberClientCount=0, subscriberCount=0
+
+2023-02-24 05:52:17,111 INFO toNotifyTaskSize=0
+
+2023-02-24 05:52:19,832 INFO [long-pulling] client count 0
+
+2023-02-24 19:54:43,555 INFO groupCount=2, subscriberClientCount=0, subscriberCount=0
+
+2023-02-24 19:54:43,556 INFO toNotifyTaskSize=0
+
+2023-02-24 19:54:51,276 INFO [long-pulling] client count 0
+
+2023-02-24 19:54:53,567 INFO groupCount=2, subscriberClientCount=0, subscriberCount=0
+
+2023-02-24 19:54:53,567 INFO toNotifyTaskSize=0
+
+2023-02-24 20:54:22,642 INFO toNotifyTaskSize=0
+
+2023-02-24 20:54:22,642 INFO groupCount=2, subscriberClientCount=0, subscriberCount=0
+
+2023-02-24 20:54:25,316 INFO [long-pulling] client count 0
+

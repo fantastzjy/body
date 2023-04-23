@@ -1,0 +1,13 @@
+2023-03-03 17:25:26,384|10.181.121.229|mall-gateway.properties|DEFAULT_GROUP|de8dc042-3565-4018-872e-22b72583d4be|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 17:25:35,426|10.181.121.229|mall-gateway.properties|DEFAULT_GROUP|de8dc042-3565-4018-872e-22b72583d4be|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 18:08:13,378|10.181.121.229|mall-product.properties|DEFAULT_GROUP|19e698cb-5bd8-456a-b203-394a9880233a|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 18:08:37,000|10.181.121.229|mall-member.properties|DEFAULT_GROUP|ad6a21b7-90ae-4d6f-a422-deabf15b8d65|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 18:08:38,489|10.181.121.229|mall-product.properties|DEFAULT_GROUP|19e698cb-5bd8-456a-b203-394a9880233a|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 18:08:46,122|10.181.121.229|mall-member.properties|DEFAULT_GROUP|ad6a21b7-90ae-4d6f-a422-deabf15b8d65|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 18:09:21,226|10.181.121.229|mall-order.properties|DEFAULT_GROUP|5db802bc-3e6c-4a1c-9af7-70251a9edc11|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 19:35:23,452|10.181.121.229|mall-member.properties|DEFAULT_GROUP|ad6a21b7-90ae-4d6f-a422-deabf15b8d65|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 19:35:31,740|10.181.121.229|mall-member.properties|DEFAULT_GROUP|ad6a21b7-90ae-4d6f-a422-deabf15b8d65|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 19:36:07,406|10.181.121.229|mall-gateway.properties|DEFAULT_GROUP|de8dc042-3565-4018-872e-22b72583d4be|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 19:36:14,250|10.181.121.229|mall-gateway.properties|DEFAULT_GROUP|de8dc042-3565-4018-872e-22b72583d4be|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 19:57:24,456|10.181.121.229|mall-member.properties|DEFAULT_GROUP|ad6a21b7-90ae-4d6f-a422-deabf15b8d65|unknown|-1|pull|not-found|-1|127.0.0.1
+2023-03-03 19:57:35,344|10.181.121.229|mall-member.properties|DEFAULT_GROUP|ad6a21b7-90ae-4d6f-a422-deabf15b8d65|unknown|-1|pull|not-found|-1|127.0.0.1

@@ -1,0 +1,28 @@
+2022-05-01 17:04:23,684 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.252.179:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-01 17:04:23,688 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.252.179:10000_true,
+
+2022-05-01 17:06:05,098 INFO DEFAULT_GROUP@@gulimall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.252.179:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-01 17:06:05,098 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 192.168.252.179:88_true,
+
+2022-05-01 23:12:19,040 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.252.179:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-01 23:12:19,042 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 
+
+2022-05-01 23:12:19,891 INFO DEFAULT_GROUP@@gulimall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.252.179:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-01 23:12:19,892 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 
+
+2022-05-01 23:14:57,913 INFO DEFAULT_GROUP@@mall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.252.179:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-01 23:14:57,913 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 192.168.252.179:88_true,
+
+2022-05-01 23:14:57,915 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 192.168.252.179:88_true,
+
+2022-05-01 23:15:01,702 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.252.179:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-01 23:15:01,702 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.252.179:10000_true,
+
+2022-05-01 23:15:01,703 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.252.179:10000_true,
+

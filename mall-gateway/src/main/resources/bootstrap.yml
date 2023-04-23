@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mall-gateway  #刚连接配置中心所需的名字
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+#        file-extension: yml
+        namespace: de8dc042-3565-4018-872e-22b72583d4be

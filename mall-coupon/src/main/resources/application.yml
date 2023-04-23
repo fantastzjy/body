@@ -1,0 +1,48 @@
+server:
+  port: 6000
+
+spring:
+  application:
+    #注册中心中的名字
+    name: mall-coupon
+  datasource:
+    username: root
+    password: Fantastu7.
+    url: jdbc:mysql://localhost:3306/mall_sms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+    sentinel:
+      transport:
+        # 应用开启端口，接收dashboard限流规则，如果被占用会默认+1
+        port: 8719
+        #配置sentinel dashboard地址
+        dashboard: localhost:8333
+
+
+  redis:
+    port: 6379
+    host: localhost
+
+#开启feign对sentinel的支持
+feign:
+  sentinel:
+    enabled: true
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+
+  global-config:
+    db-config:
+      id-type: auto
+
+#暴露所有端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+

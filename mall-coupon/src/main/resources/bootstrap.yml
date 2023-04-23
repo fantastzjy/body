@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mall-coupon
+
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: 83b1f6ac-ab14-4817-907d-e9ec6335020b
+

@@ -1,0 +1,77 @@
+server:
+  port: 7898
+
+spring:
+  application:
+    name: mall-ware
+  datasource:
+    username: root
+    password: Fantastu7.
+    url: jdbc:mysql://127.0.0.1:3306/mall_wms?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+    sentinel:
+      transport:
+        # 应用开启端口，接收dashboard限流规则，如果被占用会默认+1
+        port: 8719
+        #配置sentinel dashboard地址
+        dashboard: localhost:8333
+
+  zipkin:
+    # zipkin服务器的地址
+    base-url: http://121.43.231.169:9411/
+    # 关闭服务发现，否则Springcloud会把zipkin当做服务名称
+    discovery-client-enabled: false
+    # 数据传输方式
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      rate: 1 # 设置抽样采集率 默认为0.1
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+
+
+  rabbitmq:
+    host: 121.43.231.169
+    port: 5672
+    # 虚拟主机
+    virtual-host: /
+    # 开启发送端发送确认，无论是否到达broker都会触发回调【发送端确认机制+本地事务表】
+    publisher-confirm-type: correlated
+    # 开启发送端抵达队列确认，消息未被队列接收时触发回调【发送端确认机制+本地事务表】
+    publisher-returns: true
+    # 消息在没有被队列接收时是否强行退回
+    template:
+      mandatory: true
+    # 消费者手动确认模式，关闭自动确认，否则会消息丢失
+    listener:
+      simple:
+        acknowledge-mode: manual
+#开启feign对sentinel的支持
+feign:
+  sentinel:
+    enabled: true
+
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+
+  global-config:
+    db-config:
+      id-type: auto
+logging:
+  level:
+    com.mall: info
+
+##暴露所有端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

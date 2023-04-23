@@ -1,0 +1,124 @@
+2022-05-04 00:11:40,271 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 00:11:40,278 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2022-05-04 00:11:40,279 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 00:11:40,279 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2022-05-04 00:11:40,949 INFO DEFAULT_GROUP@@mall-third-party {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 00:11:40,949 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-third-party, ips: 
+
+2022-05-04 00:11:40,966 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 00:11:40,966 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 
+
+2022-05-04 00:11:41,180 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 00:11:41,181 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2022-05-04 00:11:41,615 INFO DEFAULT_GROUP@@mall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 00:11:41,615 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 
+
+2022-05-04 10:09:50,400 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 10:09:50,406 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.53.179:10000_true,
+
+2022-05-04 10:10:48,164 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 10:10:48,164 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.53.179:8080_true,
+
+2022-05-04 10:10:48,165 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 10:10:48,165 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.53.179:8080_true,
+
+2022-05-04 10:10:48,167 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.53.179:8080_true,
+
+2022-05-04 10:10:48,169 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.53.179:8080_true,
+
+2022-05-04 10:12:44,536 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 10:12:44,536 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.53.179:8000_true,
+
+2022-05-04 10:12:44,537 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.53.179:8000_true,
+
+2022-05-04 10:21:53,334 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 10:21:53,334 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.53.179:7000_true,
+
+2022-05-04 10:21:53,363 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.53.179:7000_true,
+
+2022-05-04 10:22:18,868 INFO DEFAULT_GROUP@@mall-third-party {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 10:22:18,868 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-third-party, ips: 192.168.53.179:30000_true,
+
+2022-05-04 10:22:18,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-third-party, ips: 192.168.53.179:30000_true,
+
+2022-05-04 10:25:00,632 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 10:25:00,633 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 
+
+2022-05-04 12:00:37,854 INFO DEFAULT_GROUP@@mall-third-party {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:00:37,865 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-third-party, ips: 
+
+2022-05-04 12:00:37,865 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:00:37,865 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2022-05-04 12:00:37,865 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:00:37,866 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2022-05-04 12:00:38,726 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:00:38,726 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 
+
+2022-05-04 12:00:38,794 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.53.179:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:00:38,795 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 
+
+2022-05-04 12:04:33,339 INFO DEFAULT_GROUP@@mall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:10000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:04:33,340 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.53.179:10000_true,
+
+2022-05-04 12:04:33,348 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-product, ips: 192.168.53.179:10000_true,
+
+2022-05-04 12:04:36,656 INFO DEFAULT_GROUP@@mall-third-party {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:04:36,657 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-third-party, ips: 192.168.53.179:30000_true,
+
+2022-05-04 12:04:36,659 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-third-party, ips: 192.168.53.179:30000_true,
+
+2022-05-04 12:05:06,219 INFO DEFAULT_GROUP@@mall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:05:06,220 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.53.179:7000_true,
+
+2022-05-04 12:05:06,224 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-ware, ips: 192.168.53.179:7000_true,
+
+2022-05-04 12:05:26,751 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:05:26,751 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.53.179:8080_true,
+
+2022-05-04 12:05:26,751 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:05:26,751 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.53.179:8080_true,
+
+2022-05-04 12:05:26,752 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.53.179:8080_true,
+
+2022-05-04 12:05:26,753 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.53.179:8080_true,
+
+2022-05-04 12:06:32,512 INFO DEFAULT_GROUP@@mall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:06:32,512 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.53.179:8000_true,
+
+2022-05-04 12:06:32,513 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-member, ips: 192.168.53.179:8000_true,
+
+2022-05-04 12:06:57,815 INFO DEFAULT_GROUP@@mall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.53.179:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-05-04 12:06:57,815 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 192.168.53.179:88_true,
+
+2022-05-04 12:06:57,818 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@mall-gateway, ips: 192.168.53.179:88_true,
+

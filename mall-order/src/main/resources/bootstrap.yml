@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mall-order
+
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: 5db802bc-3e6c-4a1c-9af7-70251a9edc11
+
+

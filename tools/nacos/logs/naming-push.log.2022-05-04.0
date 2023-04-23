@@ -1,0 +1,60 @@
+2022-05-04 00:11:41,291 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-04 00:11:41,301 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.53.179:60549, agent: Nacos-Java-Client:v1.1.1, key: 192.168.53.179,60549,198765589052900
+
+2022-05-04 00:11:41,302 INFO send udp packet: 192.168.53.179,60549,198765589052900
+
+2022-05-04 00:11:41,327 INFO received ack: {"type": "push-ack", "lastRefTime":"198765589052900", "data":""} from: 192.168.53.179:60549, cost: 25 ms, unacked: 0, total push: 1
+
+2022-05-04 00:11:41,962 INFO DEFAULT_GROUP@@mall-third-party is changed, add it to push queue.
+
+2022-05-04 00:11:41,964 INFO serviceName: DEFAULT_GROUP@@mall-third-party changed, schedule push for: 192.168.53.179:60549, agent: Nacos-Java-Client:v1.1.1, key: 192.168.53.179,60549,198766257720100
+
+2022-05-04 00:11:41,969 INFO send udp packet: 192.168.53.179,60549,198766257720100
+
+2022-05-04 00:11:41,969 INFO DEFAULT_GROUP@@mall-ware is changed, add it to push queue.
+
+2022-05-04 00:11:41,971 INFO serviceName: DEFAULT_GROUP@@mall-ware changed, schedule push for: 192.168.53.179:60549, agent: Nacos-Java-Client:v1.1.1, key: 192.168.53.179,60549,198766262958000
+
+2022-05-04 00:11:41,971 INFO send udp packet: 192.168.53.179,60549,198766262958000
+
+2022-05-04 00:11:41,974 INFO received ack: {"type": "push-ack", "lastRefTime":"198766257720100", "data":""} from: 192.168.53.179:60549, cost: 6 ms, unacked: 1, total push: 3
+
+2022-05-04 00:11:41,977 INFO received ack: {"type": "push-ack", "lastRefTime":"198766262958000", "data":""} from: 192.168.53.179:60549, cost: 6 ms, unacked: 0, total push: 3
+
+2022-05-04 00:11:42,193 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2022-05-04 00:11:42,620 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2022-05-04 10:09:51,413 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-04 10:10:49,172 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-04 10:12:45,548 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2022-05-04 10:21:54,338 INFO DEFAULT_GROUP@@mall-ware is changed, add it to push queue.
+
+2022-05-04 10:22:19,882 INFO DEFAULT_GROUP@@mall-third-party is changed, add it to push queue.
+
+2022-05-04 10:25:01,643 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-04 12:00:38,879 INFO DEFAULT_GROUP@@mall-third-party is changed, add it to push queue.
+
+2022-05-04 12:00:38,881 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-04 12:00:39,737 INFO DEFAULT_GROUP@@mall-ware is changed, add it to push queue.
+
+2022-05-04 12:00:39,800 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2022-05-04 12:04:34,352 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-04 12:04:37,659 INFO DEFAULT_GROUP@@mall-third-party is changed, add it to push queue.
+
+2022-05-04 12:05:07,233 INFO DEFAULT_GROUP@@mall-ware is changed, add it to push queue.
+
+2022-05-04 12:05:27,757 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-04 12:06:33,524 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2022-05-04 12:06:58,830 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+

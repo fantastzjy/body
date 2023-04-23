@@ -1,0 +1,55 @@
+2023-02-24 05:52:18,810 INFO [NACOS-DISTRO] healthy server list changed, old: [{"adWeight":0,"alive":true,"ip":"172.20.10.3","key":"172.20.10.3:8848","lastRefTime":1677155496450,"lastRefTimeStr":"2023-02-23 20:31:36","servePort":8848,"site":"unknown","weight":4}], new: []
+
+2023-02-24 05:52:18,934 INFO [NACOS-DISTRO] disable health check for 60000 ms from now on.
+
+2023-02-24 05:52:18,936 INFO receive config info: unknown#172.20.10.3:8848#1677189138936#4
+
+
+2023-02-24 05:52:20,941 INFO [NACOS-DISTRO] healthy server list changed, old: [], new: [{"adWeight":0,"alive":true,"ip":"172.20.10.3","key":"172.20.10.3:8848","lastRefTime":1677189138936,"lastRefTimeStr":"2023-02-24 05:52:18","servePort":8848,"site":"unknown","weight":4}]
+
+2023-02-24 05:52:20,941 INFO receive config info: unknown#172.20.10.3:8848#1677189140941#4
+
+
+2023-02-24 19:54:44,474 INFO [NACOS-DISTRO] healthy server list changed, old: [{"adWeight":0,"alive":true,"ip":"172.20.10.3","key":"172.20.10.3:8848","lastRefTime":1677189138936,"lastRefTimeStr":"2023-02-24 05:52:18","servePort":8848,"site":"unknown","weight":4}], new: []
+
+2023-02-24 19:54:44,474 INFO receive config info: unknown#172.20.10.3:8848#1677239684474#4
+
+
+2023-02-24 19:54:46,485 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2023-02-24 19:54:46,487 INFO [NACOS-DISTRO] healthy server list changed, old: [], new: [{"adWeight":0,"alive":true,"ip":"172.20.10.3","key":"172.20.10.3:8848","lastRefTime":1677239684474,"lastRefTimeStr":"2023-02-24 19:54:44","servePort":8848,"site":"unknown","weight":4}]
+
+2023-02-24 19:54:46,487 INFO [NACOS-DISTRO] disable health check for 60000 ms from now on.
+
+2023-02-24 19:54:46,487 INFO receive config info: unknown#172.20.10.3:8848#1677239686487#4
+
+
+2023-02-24 19:54:48,499 INFO receive config info: unknown#172.20.10.3:8848#1677239688498#4
+
+
+2023-02-24 19:54:50,573 INFO receive config info: unknown#172.20.10.3:8848#1677239690573#4
+
+
+2023-02-24 19:54:52,586 INFO receive config info: unknown#172.20.10.3:8848#1677239692586#4
+
+
+2023-02-24 19:54:54,598 INFO receive config info: unknown#172.20.10.3:8848#1677239694598#4
+
+
+2023-02-24 19:54:56,612 INFO receive config info: unknown#172.20.10.3:8848#1677239696612#4
+
+
+2023-02-24 20:54:22,642 INFO [NACOS-DISTRO] healthy server list changed, old: [{"adWeight":0,"alive":true,"ip":"172.20.10.3","key":"172.20.10.3:8848","lastRefTime":1677239684474,"lastRefTimeStr":"2023-02-24 19:54:44","servePort":8848,"site":"unknown","weight":4}], new: []
+
+2023-02-24 20:54:22,642 INFO receive config info: unknown#172.20.10.3:8848#1677243262642#4
+
+
+2023-02-24 20:54:25,388 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2023-02-24 20:54:25,388 INFO [NACOS-DISTRO] healthy server list changed, old: [], new: [{"adWeight":0,"alive":true,"ip":"172.20.10.3","key":"172.20.10.3:8848","lastRefTime":1677243262642,"lastRefTimeStr":"2023-02-24 20:54:22","servePort":8848,"site":"unknown","weight":4}]
+
+2023-02-24 20:54:25,388 INFO [NACOS-DISTRO] disable health check for 60000 ms from now on.
+
+2023-02-24 20:54:25,388 INFO receive config info: unknown#172.20.10.3:8848#1677243265388#4
+
+

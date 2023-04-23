@@ -1,0 +1,210 @@
+2023-03-03 17:25:33,775 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2023-03-03 17:29:48,491 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-03 18:08:37,686 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2023-03-03 18:08:45,725 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 18:34:50,933 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-03 18:34:50,951 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 10.181.121.229:59372, agent: Nacos-Java-Client:v1.1.1, key: 10.181.121.229,59372,24072209739100
+
+2023-03-03 18:34:50,951 INFO send udp packet: 10.181.121.229,59372,24072209739100
+
+2023-03-03 18:34:51,143 INFO received ack: {"type": "push-ack", "lastRefTime":"24072209739100", "data":""} from: 10.181.121.229:59372, cost: 191 ms, unacked: 0, total push: 1
+
+2023-03-03 18:35:17,749 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-03 18:35:17,894 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 10.181.121.229:59372, agent: Nacos-Java-Client:v1.1.1, key: 10.181.121.229,59372,24099111258600
+
+2023-03-03 18:35:17,894 INFO send udp packet: 10.181.121.229,59372,24099111258600
+
+2023-03-03 18:35:17,916 INFO received ack: {"type": "push-ack", "lastRefTime":"24099111258600", "data":""} from: 10.181.121.229:59372, cost: 22 ms, unacked: 0, total push: 2
+
+2023-03-03 18:42:56,199 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-03 18:42:56,204 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 10.181.121.229:59372, agent: Nacos-Java-Client:v1.1.1, key: 10.181.121.229,59372,24557474175500
+
+2023-03-03 18:42:56,204 INFO send udp packet: 10.181.121.229,59372,24557474175500
+
+2023-03-03 18:42:56,253 INFO received ack: {"type": "push-ack", "lastRefTime":"24557474175500", "data":""} from: 10.181.121.229:59372, cost: 48 ms, unacked: 0, total push: 3
+
+2023-03-03 18:43:20,918 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-03 18:43:20,927 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 10.181.121.229:59372, agent: Nacos-Java-Client:v1.1.1, key: 10.181.121.229,59372,24582191269800
+
+2023-03-03 18:43:20,927 INFO send udp packet: 10.181.121.229,59372,24582191269800
+
+2023-03-03 18:43:20,936 INFO received ack: {"type": "push-ack", "lastRefTime":"24582191269800", "data":""} from: 10.181.121.229:59372, cost: 9 ms, unacked: 0, total push: 4
+
+2023-03-03 19:08:44,934 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 19:08:44,935 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2023-03-03 19:08:44,935 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2023-03-03 19:08:44,935 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-03 19:08:48,780 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-03 19:08:48,780 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 10.181.121.229:59372, agent: Nacos-Java-Client:v1.1.1, key: 10.181.121.229,59372,26110075125500
+
+2023-03-03 19:08:48,780 INFO send udp packet: 10.181.121.229,59372,26110075125500
+
+2023-03-03 19:08:48,780 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 19:08:48,780 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2023-03-03 19:08:48,780 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2023-03-03 19:08:48,780 INFO serviceName: DEFAULT_GROUP@@mall-product changed, schedule push for: 10.181.121.229:59372, agent: Nacos-Java-Client:v1.1.1, key: 10.181.121.229,59372,26110075546400
+
+2023-03-03 19:08:48,780 INFO send udp packet: 10.181.121.229,59372,26110075546400
+
+2023-03-03 19:08:48,801 INFO received ack: {"type": "push-ack", "lastRefTime":"26110075125500", "data":""} from: 10.181.121.229:59372, cost: 21 ms, unacked: 1, total push: 6
+
+2023-03-03 19:08:48,801 INFO received ack: {"type": "push-ack", "lastRefTime":"26110075546400", "data":""} from: 10.181.121.229:59372, cost: 21 ms, unacked: 0, total push: 6
+
+2023-03-03 19:08:50,044 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 19:08:52,209 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2023-03-03 19:08:52,667 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2023-03-03 19:08:52,667 INFO serviceName: DEFAULT_GROUP@@mall-product changed, schedule push for: 10.181.121.229:59372, agent: Nacos-Java-Client:v1.1.1, key: 10.181.121.229,59372,26113961641200
+
+2023-03-03 19:08:52,667 INFO send udp packet: 10.181.121.229,59372,26113961641200
+
+2023-03-03 19:08:52,670 INFO received ack: {"type": "push-ack", "lastRefTime":"26113961641200", "data":""} from: 10.181.121.229:59372, cost: 3 ms, unacked: 0, total push: 7
+
+2023-03-03 19:18:55,729 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-03 19:18:55,731 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 10.181.121.229:59372, agent: Nacos-Java-Client:v1.1.1, key: 10.181.121.229,59372,26717024162600
+
+2023-03-03 19:18:55,731 INFO send udp packet: 10.181.121.229,59372,26717024162600
+
+2023-03-03 19:19:05,736 INFO retry to push data, key: 10.181.121.229,59372,26717024162600
+
+2023-03-03 19:19:05,737 INFO send udp packet: 10.181.121.229,59372,26717024162600
+
+2023-03-03 19:19:12,426 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-03 19:19:12,433 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 10.181.121.229:59372, agent: Nacos-Java-Client:v1.1.1, key: 10.181.121.229,59372,26733721352700
+
+2023-03-03 19:19:12,433 INFO send udp packet: 10.181.121.229,59372,26733721352700
+
+2023-03-03 19:19:15,748 INFO retry to push data, key: 10.181.121.229,59372,26717024162600
+
+2023-03-03 19:19:15,750 WARN max re-push times reached, retry times 2, key: 10.181.121.229,59372,26717024162600
+
+2023-03-03 19:19:22,434 INFO retry to push data, key: 10.181.121.229,59372,26733721352700
+
+2023-03-03 19:19:22,434 INFO send udp packet: 10.181.121.229,59372,26733721352700
+
+2023-03-03 19:19:32,448 INFO retry to push data, key: 10.181.121.229,59372,26733721352700
+
+2023-03-03 19:19:32,448 WARN max re-push times reached, retry times 2, key: 10.181.121.229,59372,26733721352700
+
+2023-03-03 19:35:17,364 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 19:35:17,364 INFO serviceName: DEFAULT_GROUP@@mall-member changed, schedule push for: 10.181.121.229:59372, agent: Nacos-Java-Client:v1.1.1, key: 10.181.121.229,59372,27698658885300
+
+2023-03-03 19:35:17,365 INFO send udp packet: 10.181.121.229,59372,27698658885300
+
+2023-03-03 19:35:27,381 INFO retry to push data, key: 10.181.121.229,59372,27698658885300
+
+2023-03-03 19:35:27,381 INFO send udp packet: 10.181.121.229,59372,27698658885300
+
+2023-03-03 19:35:31,595 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 19:35:31,596 INFO serviceName: DEFAULT_GROUP@@mall-member changed, schedule push for: 10.181.121.229:59372, agent: Nacos-Java-Client:v1.1.1, key: 10.181.121.229,59372,27712890504500
+
+2023-03-03 19:35:31,596 INFO send udp packet: 10.181.121.229,59372,27712890504500
+
+2023-03-03 19:35:37,394 INFO retry to push data, key: 10.181.121.229,59372,27698658885300
+
+2023-03-03 19:35:37,394 WARN max re-push times reached, retry times 2, key: 10.181.121.229,59372,27698658885300
+
+2023-03-03 19:35:41,601 INFO retry to push data, key: 10.181.121.229,59372,27712890504500
+
+2023-03-03 19:35:41,601 INFO send udp packet: 10.181.121.229,59372,27712890504500
+
+2023-03-03 19:35:51,606 INFO retry to push data, key: 10.181.121.229,59372,27712890504500
+
+2023-03-03 19:35:51,606 WARN max re-push times reached, retry times 2, key: 10.181.121.229,59372,27712890504500
+
+2023-03-03 19:36:01,057 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2023-03-03 19:36:14,278 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2023-03-03 19:57:15,838 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 19:57:15,840 INFO serviceName: DEFAULT_GROUP@@mall-member changed, schedule push for: 172.20.10.3:60798, agent: Nacos-Java-Client:v1.1.1, key: 172.20.10.3,60798,29017133454600
+
+2023-03-03 19:57:15,840 INFO send udp packet: 172.20.10.3,60798,29017133454600
+
+2023-03-03 19:57:15,898 INFO received ack: {"type": "push-ack", "lastRefTime":"29017133454600", "data":""} from: 172.20.10.3:60798, cost: 58 ms, unacked: 0, total push: 12
+
+2023-03-03 19:57:34,257 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 19:57:34,262 INFO serviceName: DEFAULT_GROUP@@mall-member changed, schedule push for: 172.20.10.3:60798, agent: Nacos-Java-Client:v1.1.1, key: 172.20.10.3,60798,29035552368500
+
+2023-03-03 19:57:34,262 INFO send udp packet: 172.20.10.3,60798,29035552368500
+
+2023-03-03 19:57:34,266 INFO received ack: {"type": "push-ack", "lastRefTime":"29035552368500", "data":""} from: 172.20.10.3:60798, cost: 4 ms, unacked: 0, total push: 13
+
+2023-03-03 19:59:13,460 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 19:59:13,461 INFO serviceName: DEFAULT_GROUP@@mall-member changed, schedule push for: 172.20.10.3:60798, agent: Nacos-Java-Client:v1.1.1, key: 172.20.10.3,60798,29134755201600
+
+2023-03-03 19:59:13,462 INFO send udp packet: 172.20.10.3,60798,29134755201600
+
+2023-03-03 19:59:13,465 INFO received ack: {"type": "push-ack", "lastRefTime":"29134755201600", "data":""} from: 172.20.10.3:60798, cost: 3 ms, unacked: 0, total push: 14
+
+2023-03-03 19:59:25,292 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 19:59:25,292 INFO serviceName: DEFAULT_GROUP@@mall-member changed, schedule push for: 172.20.10.3:60798, agent: Nacos-Java-Client:v1.1.1, key: 172.20.10.3,60798,29146586883100
+
+2023-03-03 19:59:25,293 INFO send udp packet: 172.20.10.3,60798,29146586883100
+
+2023-03-03 19:59:25,295 INFO received ack: {"type": "push-ack", "lastRefTime":"29146586883100", "data":""} from: 172.20.10.3:60798, cost: 2 ms, unacked: 0, total push: 15
+
+2023-03-03 19:59:58,534 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 19:59:58,534 INFO serviceName: DEFAULT_GROUP@@mall-member changed, schedule push for: 172.20.10.3:60798, agent: Nacos-Java-Client:v1.1.1, key: 172.20.10.3,60798,29179828649100
+
+2023-03-03 19:59:58,534 INFO send udp packet: 172.20.10.3,60798,29179828649100
+
+2023-03-03 19:59:58,536 INFO received ack: {"type": "push-ack", "lastRefTime":"29179828649100", "data":""} from: 172.20.10.3:60798, cost: 2 ms, unacked: 0, total push: 16
+
+2023-03-03 20:00:13,590 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 20:00:13,590 INFO serviceName: DEFAULT_GROUP@@mall-member changed, schedule push for: 172.20.10.3:60798, agent: Nacos-Java-Client:v1.1.1, key: 172.20.10.3,60798,29194884766700
+
+2023-03-03 20:00:13,590 INFO send udp packet: 172.20.10.3,60798,29194884766700
+
+2023-03-03 20:00:13,592 INFO received ack: {"type": "push-ack", "lastRefTime":"29194884766700", "data":""} from: 172.20.10.3:60798, cost: 2 ms, unacked: 0, total push: 17
+
+2023-03-03 20:00:14,887 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+
+2023-03-03 20:00:14,887 INFO serviceName: DEFAULT_GROUP@@mall-member changed, schedule push for: 172.20.10.3:60798, agent: Nacos-Java-Client:v1.1.1, key: 172.20.10.3,60798,29196181386200
+
+2023-03-03 20:00:14,887 INFO send udp packet: 172.20.10.3,60798,29196181386200
+
+2023-03-03 20:00:14,890 INFO received ack: {"type": "push-ack", "lastRefTime":"29196181386200", "data":""} from: 172.20.10.3:60798, cost: 3 ms, unacked: 0, total push: 18
+
+2023-03-03 20:50:37,438 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-03 20:50:37,439 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 172.20.10.3:60798, agent: Nacos-Java-Client:v1.1.1, key: 172.20.10.3,60798,32218732700900
+
+2023-03-03 20:50:37,439 INFO send udp packet: 172.20.10.3,60798,32218732700900
+
+2023-03-03 20:50:37,446 INFO received ack: {"type": "push-ack", "lastRefTime":"32218732700900", "data":""} from: 172.20.10.3:60798, cost: 7 ms, unacked: 0, total push: 19
+
+2023-03-03 20:50:38,748 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2023-03-03 20:50:39,686 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2023-03-03 20:50:41,134 INFO DEFAULT_GROUP@@mall-member is changed, add it to push queue.
+

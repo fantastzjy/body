@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mall-auth-server
+
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: c482ff3a-ef23-41cc-ad60-e31b7eec836c
+
+

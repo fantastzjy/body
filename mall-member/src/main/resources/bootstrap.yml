@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mall-member
+
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: ad6a21b7-90ae-4d6f-a422-deabf15b8d65
+
+

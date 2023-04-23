@@ -1,0 +1,232 @@
+2022-05-02 09:51:08,413 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-02 10:40:01,079 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-02 10:40:01,338 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-02 10:40:02,332 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2022-05-02 10:40:42,862 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2022-05-02 10:40:55,612 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-02 10:41:12,677 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-02 10:48:31,017 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2022-05-02 10:48:51,809 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2022-05-02 10:58:23,605 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2022-05-02 10:58:43,149 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2022-05-02 16:33:12,458 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-02 16:33:12,614 INFO serviceName: DEFAULT_GROUP@@mall-product changed, schedule push for: 10.179.30.39:61002, agent: Nacos-Java-Client:v1.1.1, key: 10.179.30.39,61002,84856776021000
+
+2022-05-02 16:33:12,615 INFO send udp packet: 10.179.30.39,61002,84856776021000
+
+2022-05-02 16:33:12,649 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"metadata":{},"dom":"DEFAULT_GROUP@@mall-product","cacheMillis":10000,"useSpecifiedURL":false,"hosts":[{"valid":true,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceId":"192.168.3.179#10000#DEFAULT#DEFAULT_GROUP@@mall-product","port":10000,"healthy":true,"ip":"192.168.3.179","clusterName":"DEFAULT","weight":1.0,"ephemeral":true,"serviceName":"DEFAULT_GROUP@@mall-product","enabled":true}],"name":"DEFAULT_GROUP@@mall-product","checksum":"c02fa928e8cb0529ac859d5a58d7f20","lastRefTime":1651480392596,"env":"","clusters":""}, lastRefTime=84856776021000} to client: 10.179.30.39, error: {}
+
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:601)
+	at com.alibaba.nacos.naming.push.PushService.access$500(PushService.java:53)
+	at com.alibaba.nacos.naming.push.PushService$4.run(PushService.java:186)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-02 16:33:12,691 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-02 16:33:12,691 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 10.179.30.39:61002, agent: Nacos-Java-Client:v1.1.1, key: 10.179.30.39,61002,84856983305000
+
+2022-05-02 16:33:12,691 INFO send udp packet: 10.179.30.39,61002,84856983305000
+
+2022-05-02 16:33:12,691 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"metadata":{},"dom":"DEFAULT_GROUP@@renren-fast","cacheMillis":10000,"useSpecifiedURL":false,"hosts":[{"valid":true,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceId":"192.168.3.179#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","port":8080,"healthy":true,"ip":"192.168.3.179","clusterName":"DEFAULT","weight":1.0,"ephemeral":true,"serviceName":"DEFAULT_GROUP@@renren-fast","enabled":true}],"name":"DEFAULT_GROUP@@renren-fast","checksum":"5f93112e33d3681d52ed5e9cb7583edb","lastRefTime":1651480392691,"env":"","clusters":""}, lastRefTime=84856983305000} to client: 10.179.30.39, error: {}
+
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:601)
+	at com.alibaba.nacos.naming.push.PushService.access$500(PushService.java:53)
+	at com.alibaba.nacos.naming.push.PushService$4.run(PushService.java:186)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-02 16:33:12,692 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2022-05-02 16:33:14,028 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2022-05-02 16:33:14,922 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-02 16:33:14,922 INFO serviceName: DEFAULT_GROUP@@mall-product changed, schedule push for: 10.179.30.39:61002, agent: Nacos-Java-Client:v1.1.1, key: 10.179.30.39,61002,84859214132400
+
+2022-05-02 16:33:14,922 INFO send udp packet: 10.179.30.39,61002,84859214132400
+
+2022-05-02 16:33:14,923 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"metadata":{},"dom":"DEFAULT_GROUP@@mall-product","cacheMillis":10000,"useSpecifiedURL":false,"hosts":[],"name":"DEFAULT_GROUP@@mall-product","checksum":"c7ee04bcbbac931f80c27c879f5c349e","lastRefTime":1651480394922,"env":"","clusters":""}, lastRefTime=84859214132400} to client: 10.179.30.39, error: {}
+
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:601)
+	at com.alibaba.nacos.naming.push.PushService.access$500(PushService.java:53)
+	at com.alibaba.nacos.naming.push.PushService$4.run(PushService.java:186)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-02 16:33:14,933 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-02 16:33:14,933 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 10.179.30.39:61002, agent: Nacos-Java-Client:v1.1.1, key: 10.179.30.39,61002,84859224598100
+
+2022-05-02 16:33:14,933 INFO send udp packet: 10.179.30.39,61002,84859224598100
+
+2022-05-02 16:33:14,934 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"metadata":{},"dom":"DEFAULT_GROUP@@renren-fast","cacheMillis":10000,"useSpecifiedURL":false,"hosts":[],"name":"DEFAULT_GROUP@@renren-fast","checksum":"b5784e3553fe1e6b7b4b4a2831e60dd8","lastRefTime":1651480394933,"env":"","clusters":""}, lastRefTime=84859224598100} to client: 10.179.30.39, error: {}
+
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:601)
+	at com.alibaba.nacos.naming.push.PushService.access$500(PushService.java:53)
+	at com.alibaba.nacos.naming.push.PushService$4.run(PushService.java:186)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-02 16:33:18,160 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-02 16:33:18,161 INFO serviceName: DEFAULT_GROUP@@mall-product changed, schedule push for: 10.179.30.39:61002, agent: Nacos-Java-Client:v1.1.1, key: 10.179.30.39,61002,84862452212100
+
+2022-05-02 16:33:18,161 INFO send udp packet: 10.179.30.39,61002,84862452212100
+
+2022-05-02 16:33:18,161 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"metadata":{},"dom":"DEFAULT_GROUP@@mall-product","cacheMillis":10000,"useSpecifiedURL":false,"hosts":[{"valid":true,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceId":"192.168.3.179#10000#DEFAULT#DEFAULT_GROUP@@mall-product","port":10000,"healthy":true,"ip":"192.168.3.179","clusterName":"DEFAULT","weight":1.0,"ephemeral":true,"serviceName":"DEFAULT_GROUP@@mall-product","enabled":true}],"name":"DEFAULT_GROUP@@mall-product","checksum":"c02fa928e8cb0529ac859d5a58d7f20","lastRefTime":1651480398160,"env":"","clusters":""}, lastRefTime=84862452212100} to client: 10.179.30.39, error: {}
+
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:601)
+	at com.alibaba.nacos.naming.push.PushService.access$500(PushService.java:53)
+	at com.alibaba.nacos.naming.push.PushService$4.run(PushService.java:186)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-02 16:33:18,556 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-05-02 16:33:18,557 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 10.179.30.39:61002, agent: Nacos-Java-Client:v1.1.1, key: 10.179.30.39,61002,84862849469100
+
+2022-05-02 16:33:18,558 INFO send udp packet: 10.179.30.39,61002,84862849469100
+
+2022-05-02 16:33:18,558 ERROR [NACOS-PUSH] failed to push data: {type=dom, data={"metadata":{},"dom":"DEFAULT_GROUP@@renren-fast","cacheMillis":10000,"useSpecifiedURL":false,"hosts":[{"valid":true,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceId":"192.168.3.179#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","port":8080,"healthy":true,"ip":"192.168.3.179","clusterName":"DEFAULT","weight":1.0,"ephemeral":true,"serviceName":"DEFAULT_GROUP@@renren-fast","enabled":true}],"name":"DEFAULT_GROUP@@renren-fast","checksum":"5f93112e33d3681d52ed5e9cb7583edb","lastRefTime":1651480398557,"env":"","clusters":""}, lastRefTime=84862849469100} to client: 10.179.30.39, error: {}
+
+java.net.NoRouteToHostException: No route to host: Datagram send failed
+	at java.net.DualStackPlainDatagramSocketImpl.socketSend(Native Method)
+	at java.net.DualStackPlainDatagramSocketImpl.send(DualStackPlainDatagramSocketImpl.java:136)
+	at java.net.DatagramSocket.send(DatagramSocket.java:693)
+	at com.alibaba.nacos.naming.push.PushService.udpPush(PushService.java:601)
+	at com.alibaba.nacos.naming.push.PushService.access$500(PushService.java:53)
+	at com.alibaba.nacos.naming.push.PushService$4.run(PushService.java:186)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-05-02 16:33:19,025 INFO DEFAULT_GROUP@@mall-gateway is changed, add it to push queue.
+
+2022-05-02 19:57:09,902 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-02 19:57:09,919 INFO serviceName: DEFAULT_GROUP@@mall-product changed, schedule push for: 10.179.30.39:61002, agent: Nacos-Java-Client:v1.1.1, key: 10.179.30.39,61002,97094197345300
+
+2022-05-02 19:57:09,920 INFO send udp packet: 10.179.30.39,61002,97094197345300
+
+2022-05-02 19:57:20,035 INFO retry to push data, key: 10.179.30.39,61002,97094197345300
+
+2022-05-02 19:57:20,038 INFO send udp packet: 10.179.30.39,61002,97094197345300
+
+2022-05-02 19:57:24,211 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-02 19:57:24,218 INFO serviceName: DEFAULT_GROUP@@mall-product changed, schedule push for: 10.179.30.39:61002, agent: Nacos-Java-Client:v1.1.1, key: 10.179.30.39,61002,97108502901300
+
+2022-05-02 19:57:24,218 INFO send udp packet: 10.179.30.39,61002,97108502901300
+
+2022-05-02 19:57:30,050 INFO retry to push data, key: 10.179.30.39,61002,97094197345300
+
+2022-05-02 19:57:30,050 WARN max re-push times reached, retry times 2, key: 10.179.30.39,61002,97094197345300
+
+2022-05-02 19:57:30,820 INFO DEFAULT_GROUP@@mall-third-party is changed, add it to push queue.
+
+2022-05-02 19:57:34,226 INFO retry to push data, key: 10.179.30.39,61002,97108502901300
+
+2022-05-02 19:57:34,226 INFO send udp packet: 10.179.30.39,61002,97108502901300
+
+2022-05-02 19:57:44,232 INFO retry to push data, key: 10.179.30.39,61002,97108502901300
+
+2022-05-02 19:57:44,232 WARN max re-push times reached, retry times 2, key: 10.179.30.39,61002,97108502901300
+
+2022-05-02 23:20:42,478 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-02 23:20:42,493 INFO serviceName: DEFAULT_GROUP@@mall-product changed, schedule push for: 10.179.30.39:61002, agent: Nacos-Java-Client:v1.1.1, key: 10.179.30.39,61002,109306772511200
+
+2022-05-02 23:20:42,493 INFO send udp packet: 10.179.30.39,61002,109306772511200
+
+2022-05-02 23:20:44,912 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-02 23:20:44,914 INFO serviceName: DEFAULT_GROUP@@mall-product changed, schedule push for: 10.179.30.39:61002, agent: Nacos-Java-Client:v1.1.1, key: 10.179.30.39,61002,109309203821500
+
+2022-05-02 23:20:44,914 INFO send udp packet: 10.179.30.39,61002,109309203821500
+
+2022-05-02 23:20:49,012 INFO DEFAULT_GROUP@@mall-product is changed, add it to push queue.
+
+2022-05-02 23:20:49,012 INFO serviceName: DEFAULT_GROUP@@mall-product changed, schedule push for: 10.179.30.39:61002, agent: Nacos-Java-Client:v1.1.1, key: 10.179.30.39,61002,109313304520100
+
+2022-05-02 23:20:49,012 INFO send udp packet: 10.179.30.39,61002,109313304520100
+
+2022-05-02 23:20:52,761 INFO retry to push data, key: 10.179.30.39,61002,109306772511200
+
+2022-05-02 23:20:52,762 INFO send udp packet: 10.179.30.39,61002,109306772511200
+
+2022-05-02 23:20:54,927 INFO retry to push data, key: 10.179.30.39,61002,109309203821500
+
+2022-05-02 23:20:54,928 INFO send udp packet: 10.179.30.39,61002,109309203821500
+
+2022-05-02 23:20:59,027 INFO retry to push data, key: 10.179.30.39,61002,109313304520100
+
+2022-05-02 23:20:59,027 INFO send udp packet: 10.179.30.39,61002,109313304520100
+
+2022-05-02 23:21:02,776 INFO retry to push data, key: 10.179.30.39,61002,109306772511200
+
+2022-05-02 23:21:02,801 WARN max re-push times reached, retry times 2, key: 10.179.30.39,61002,109306772511200
+
+2022-05-02 23:21:04,944 INFO retry to push data, key: 10.179.30.39,61002,109309203821500
+
+2022-05-02 23:21:04,944 WARN max re-push times reached, retry times 2, key: 10.179.30.39,61002,109309203821500
+
+2022-05-02 23:21:09,052 INFO retry to push data, key: 10.179.30.39,61002,109313304520100
+
+2022-05-02 23:21:09,053 WARN max re-push times reached, retry times 2, key: 10.179.30.39,61002,109313304520100
+

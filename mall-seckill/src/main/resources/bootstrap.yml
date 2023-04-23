@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: mall-seckill
+
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: 0a50a1fc-bee6-455d-826b-369764002405
